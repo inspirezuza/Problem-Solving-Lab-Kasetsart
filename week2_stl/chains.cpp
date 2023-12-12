@@ -1,3 +1,10 @@
+// มีวิธีที่ดีกว่าโค้ดนี้ idea จาก run cpe36
+// struct เก็บชี้ 2 ตัว
+// การเดิน จะมีค่า iter กับ backward ไว้
+// ถ้าเดินไปด้านหน้า iter จะเดินไปทางตรงกัน backward
+// ถ้าเดินไปด้านหลัง backward จะเดินไปทางตรงกัน iter
+// โดยรวม runtime O(n) เหมือนกัน แต่ของ run เท่กว่าคับ
+
 #include <bits/stdc++.h>
 
 using namespace std;
